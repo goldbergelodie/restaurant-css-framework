@@ -1,0 +1,132 @@
+/*Body attributes and main sections of the page*/
+
+body{
+  background-color: #e5c878;
+  font-family: 'Libre Baskerville', serif;
+}
+.container{
+  max-width: 1500px;
+}
+
+.header{
+  background-color: black;
+}
+
+.footer{
+  background-color: black;
+}
+
+.jumbotron{
+  background-color: #e5c878;
+  text-align: center;
+  margin-bottom: 20%;
+  margin-top: 20%;
+}
+
+.justify-content-center{
+  display: flex;
+}
+
+.list-group{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.list-group-item{
+  background-color: transparent;
+  color : #e5c878;
+  width: 100ù;
+}
+
+.menu-row{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+
+.menu .list-group-item{
+  background-color: transparent;
+  color : black;
+}
+
+
+.row-map{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#contact-form{
+  margin-top: 75px;
+}
+
+.btn-primary{
+  margin-bottom: 75px;
+}
+
+iframe{
+  border: none;
+}
+
+/*Images of card to be the same height*/
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+
+/*Text attributes*/
+
+.header, h1,h2{
+  text-align: center;
+  color: #e5c878;
+}
+
+.footer{
+  text-align: center;
+}
+
+.card{
+  background-color: #e5c878;
+  border: none;
+}
+
+h1{
+  font-size: 6.5em;
+}
+
+h2{
+  font-size: 1.2em;
+}
+
+h3{
+  font-size: 2.4em;
+  font-style: italic;
+  text-align: center;
+}
+
+h4{
+  text-decoration: underline;
+}
+p{
+font-size: 1.1em;
+  margin-top: 3%;
+}
+
+
+
+.mapinfo h3{
+  text-align: left;
+}
+
+/*Links*/
+
+.footer a{
+  color: #e5c878;
+  text-align: center;
+}
+
+
+a:hover{
+  text-decoration:none;
+}
